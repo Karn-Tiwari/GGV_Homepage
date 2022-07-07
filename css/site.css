@@ -1,0 +1,107 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+header {
+    margin-top: 5%;
+}
+
+.logo {
+    border: 2px solid black;
+}
+
+a:hover {
+    background-color: #55b1d9;
+    color: black !important;
+}
+
+header .menu-bar {
+    background-color: #135c85;
+    font-size: medium;
+    font-weight: 300;
+    color: #f2f9fc;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+
+.dropdown-content {
+    background-color: #0d5a85;
+}
+
+.dropdown-menu {
+    background-color: #0d5a85;
+}
+
+.nav-link, .dropdown-item {
+    color: white !important;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+.text-blue {
+    color: #135c85;
+}
+
+.bg-blue {
+    background-color: #0d5a85;
+}
+
+footer .top-footer {
+    background: #bfdded !important;
+}
+
+footer .bottom-footer {
+    background-color: #083852;
+    color: white !important;
+}
+
+.d-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-item {
+    margin: 2px;
+    padding: 3px;
+    display: inline-flex;
+    flex-flow: row;
+}
+
+widget-section-title link {
+    color: white;
+}
+
+.social-media ul li a[data-original-title="Facebook"] {
+    background-color: #3b5998;
+}
+
+.social-media ul li a[data-original-title="Dribbble"] {
+    background-color: #ea4c89;
+}
+
+.social-media ul li a[data-original-title="Twitter"] {
+    background-color: #5086df;
+}
